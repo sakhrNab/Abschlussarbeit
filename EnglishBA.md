@@ -1,25 +1,13 @@
-# Einleitung
-- Motivation
-- Zielsetzung
-- Abgrenzung
-  - ~ Sachen wie die Zielsetzung unter Anforderungsanalyse
-  - 
-- Aufbau der Arbeit
-
-# Grundlagen
-- Django  (Definitionen, Erklärungen)
-- Flask
-- Microservice
-- Container, i.e.: Docker
-- Kubernetes, nur erwähnen
-
-First Task - 2 Wochen
----
 # Anforderungsanalyse
-- Zielsetzung 
-  - die Endergebnisse bzw. Ziele genauer abdefinieren.
-  - 
-- Anwendungsumgebung
+### Zielsetzung 
+By the end of the project it's intended to reach to a decoupled application, which is split into different services. The whole project consisted of all the requirements will be separated into different services, which will be independent from each other, and replaceable.
+
+Each Service will be stored in a container and within each container there will be a running IDE, a specific framework will be implemented, and will work completely fine without the need for the other services. 
+
+The services will then contact with each other using interfaces and if one service needs a resource from another one, it will use this interface to get it, to complete the required task. 
+
+
+### Anwendungsumgebung
   - Sammlung von Ressourcen
     - Eine Ressource ist ein Bereitstellungsziel wie eine DB oder ein Java-Platform, Container.
     - Ressourcen befinden sich i.d.R. auf demselben Host wie der Agent, der sie verwaltet. Es kann ein pyhsiches System, eine VM oder cloudbasiert sein.
