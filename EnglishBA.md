@@ -7,6 +7,13 @@ Each Service will be stored in a container and within each container there will 
 The services will then contact with each other using interfaces and if one service needs a resource from another one, it will use this interface to get it, to complete the required task. 
 
 
+### funktionale Anforderung
+êine Funktion was etwas tut.
+was ist vom System haben will.
+Wartbarkeit, Skalierbarkeit, Qualität, 
+
+### User Stories - Nicht-funktionale Anforderungen
+- Als Anwender des Systems möchte ich jede Funktion nach 3 Sekunden bedienen können, um meine Arbeit flüssig zu erledigen.
 ### Anwendungsumgebung
   - Sammlung von Ressourcen
     - Eine Ressource ist ein Bereitstellungsziel wie eine DB oder ein Java-Platform, Container.
