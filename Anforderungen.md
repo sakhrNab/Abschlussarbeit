@@ -18,7 +18,7 @@
 --- 
 - Funktion: 
     1. Registerieren
--Eingaben:
+- Eingaben:
     1. Vorname
     2. Nachname
     3. Geschlecht
