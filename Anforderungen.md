@@ -180,3 +180,6 @@
 ## 14. Anforderung
 ---
 - Funktion: 
+
+There are two main requirements, which are going to be acquired and explained on the following section. There are the functional and non-functional requirements. 
+Es gibt zwei Hauptanforderungen, die im folgenden Abschnitt behandelt und erläutert werden sollen. Es sind die funktionalen und die nicht-funktionalen Anforderungen.
