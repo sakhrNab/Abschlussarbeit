@@ -102,15 +102,47 @@ In the last few years, Python has exploded in popularity. The programming langua
 
         Flask is also a prevalent and powerful web framework as it’s used by large companies like Netflix, Linkedin, and Uber.
 - ReactJS
-- Microservice
+- Microservice<br/>
+
+It is hard to determine exactly who used the term microservice an dwhen. While it seems most likey that although the term first appeared on the scene around 2011, some companies adopted this style much earlier. 
+  One example is Amazon, weich broke apart its previously monolithic Obidos appliation into many  small services. In a 2006 interview with Microsoft Fellow Jim Gray for ACM queue, (Wener Vogels, "A conversation with Werner Vogels: Learning from the Amazon technology platform," interview by Jim Gray. ACM Queue, Volume 4, Issue 4. June 30, 2006.) Amazon CTO Werner Vogels describes as a general "service orientation" what comes very close to our definition of microservices:
+    "For us service orienation means encapsulating the data iwth the business logic that operates on the data, with the only access through a blished esrvice interface. No directe database access is allowed form outside the service, and there's no data sharing among the services."<br/>
+
+    Former eBay and Google executive Randy Shoup summarizes (3) microesrvice characteristics as having three main features: 
+      
+      1. They've a very focused scope that concentrates on a very few functionalities (at times a single one), expressed by a small and also well-defined API.
+      
+      2. They're all very modular, and independently deployable, essentially elevating the rules of software encapsulation and modularity from the progra to the deployment unit level.
+      
+      3. Finally, microservices have isolated persistence, meaning that they do not share persistent storage, such as a common database.
+
+- RabbitMQ
+- Travis-CI
+Travis CI is a hosted[2] continuous integration service used to build and test software projects hosted on GitHub[3] and Bitbucket.[4]
+
+Travis CI was the first CI service which provided services to open-source projects for free and continues to do so. TravisPro provides custom deployments of a proprietary version on the customer's own hardware.
+
+The source is technically free software and available piecemeal on GitHub under permissive licenses. The company notes, however, that the large number of tasks that a user needs to monitor and perform can make it difficult for some users to successfully integrate the Enterprise version with their own infrastructure.[5] (Wikipedia)
 - 
 
 First Task - 2 Wochen
 ---
 # Anforderungsanalyse
-- Zielsetzung - 
-- Anwendungsumgebung
-- Rahmenbedingung
+The first question we should be asking ourselves is how should the requirement analysis be done in the right order. Should we start with acquiring the user stories first or should we jump to writing the functional and non-functional requirements first? Which makes more sense and which one is the right way for a proper understanding for what we need for the application we tend to develop?
+Let's start by understanding the difference between the two of them. 
+### User stories
+
+.....
+The different tasks will then be splitted in forms of ToDO's, in Progress, and done. For this JIRA is going to be used to have a clear view of which features are still open, which needs to be worked on, and which are already done. Normally, such processes are done in teams and these tasks can be assigned accordingly to team-members. The User stories are stored in a product log and from them anyone can take a user story and start working on it. In companies, to keep an eye if everyone is doing the right requirement, to avoid any kind of missunderstanding and to check if no one needs anything or any assistance to finish their task. Spring planning meetings take place. The Spring planning meeting is subdivided into: During Spring, Daily Standup in a sprint, and daily scrum meetings. These won't be discussed as part of these thesis, hence the project is being developed by only one person and not in a corporate environemt (nicht in einer Unternehmensumgebung).
+### Requirments
+### Zielsetzung - 
+### Anwendungsumgebung
+
+The services are going to be build on an Ubuntu OS using Intellij as an IDE. Hence, the microservices architecture is going to be applied, the use of frameworks and implementation of features are going to be done systematically. This means, first a task is going to be put in place, where first the features using the Django Framework are going to be implemented and afterwards a new task is going to be added where new features are going to be built using the Flask Framework, which are supposed to be independent from the other features built in Django. All of these implementations are going to take place in Intellij. After this is done the communication between both the service is going to be made possible using an open-source message-broker software like RabbitMQ. The whole code is going to be pushed to github and monitored using an application like Travis-CI for a continuous Integeration and Deployment. This allows the discovery of any bugs in each feature as soon as it gets pushed to GitHub.
+
+In short, our application environment is going to be consisted of the following: Ubuntu OS, Intellij, see drawing - Anwendungsumgebung.drawio.
+
+### Rahmenbedingung
 - Meine Anfordeungen - i.e. User Stories
   - Use-Case-Diagramm, Kriterien schreieben
   - Epics
