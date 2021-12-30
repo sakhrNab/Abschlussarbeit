@@ -123,13 +123,13 @@ Travis CI is a hosted[2] continuous integration service used to build and test s
 Travis CI was the first CI service which provided services to open-source projects for free and continues to do so. TravisPro provides custom deployments of a proprietary version on the customer's own hardware.
 
 The source is technically free software and available piecemeal on GitHub under permissive licenses. The company notes, however, that the large number of tasks that a user needs to monitor and perform can make it difficult for some users to successfully integrate the Enterprise version with their own infrastructure.[5] (Wikipedia)
-- 
+
 
 First Task - 2 Wochen
 ---
 # Anforderungsanalyse
 The first question we should be asking ourselves is how should the requirement analysis be done in the right order. Should we start with acquiring the user stories first or should we jump to writing the functional and non-functional requirements first? Which makes more sense and which one is the right way for a proper understanding for what we need for the application we tend to develop?
-Let's start by understanding the difference between the two of them. 
+Let's start by understanding the difference between the two of them.  
 ### User stories
 
 .....
